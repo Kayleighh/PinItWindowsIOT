@@ -1,0 +1,179 @@
+﻿<Page
+    x:Class="WindowsIoT.MainPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:WindowsIoT"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d">
+
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="110*"/>
+            <RowDefinition Height="140*"/>
+            <RowDefinition Height="29*"/>
+            <RowDefinition Height="39*"/>
+            <RowDefinition Height="7*"/>
+            <RowDefinition Height="39*"/>
+            <RowDefinition Height="9*"/>
+            <RowDefinition Height="39*"/>
+            <RowDefinition Height="19*"/>
+            <RowDefinition Height="14*"/>
+            <RowDefinition Height="54*"/>
+            <RowDefinition Height="40*"/>
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="225*"/>
+            <ColumnDefinition Width="955*"/>
+            <ColumnDefinition Width="90*"/>
+            <ColumnDefinition Width="80*"/>
+            <ColumnDefinition Width="17*"/>
+            <ColumnDefinition Width="347*"/>
+            <ColumnDefinition Width="206*"/>
+        </Grid.ColumnDefinitions>
+        <Grid.Background>
+            <ImageBrush Stretch="Fill"  ImageSource="Assets/Ontwerpachtergrond.png"/>
+        </Grid.Background>
+        <Path x:Name="RemindersText" Data="M153.91,11.7427 L153.91,36.3524 L160.788,36.3524 C162.912,36.3524 164.578,36.1546 165.787,35.7591 C166.995,35.3636 167.958,34.807 168.676,34.0892 C169.687,33.0784 170.474,31.7198 171.038,30.0132 C171.602,28.3066 171.884,26.2375 171.884,23.8058 C171.884,20.4366 171.331,17.8475 170.225,16.0383 C169.119,14.2293 167.775,13.0171 166.193,12.4019 C165.051,11.9624 163.212,11.7427 160.678,11.7427 z M216.486,11.501 L216.486,22.1578 L225.649,22.1578 C227.597,22.1578 229.121,21.9564 230.219,21.5536 C231.318,21.1507 232.153,20.5062 232.724,19.62 C233.295,18.7338 233.581,17.7706 233.581,16.7305 C233.581,15.207 233.028,13.9546 231.922,12.9732 C230.816,11.9917 229.069,11.501 226.682,11.501 z M212.224,7.94132 L226.506,7.94132 C229.377,7.94133 231.56,8.23064 233.054,8.80922 C234.548,9.38793 235.742,10.4096 236.635,11.8745 C237.529,13.3394 237.976,14.958 237.976,16.7305 C237.976,19.0157 237.236,20.942 235.756,22.5094 C234.277,24.0769 231.992,25.073 228.901,25.4978 C230.029,26.0398 230.886,26.5744 231.472,27.1018 C232.717,28.2444 233.896,29.6726 235.009,31.3865 L240.612,40.1537 L235.251,40.1537 L230.988,33.452 C229.743,31.5184 228.718,30.0388 227.912,29.0134 C227.106,27.988 226.385,27.2702 225.748,26.8601 C225.111,26.4499 224.462,26.1643 223.803,26.0031 C223.32,25.9006 222.529,25.8493 221.43,25.8493 L216.486,25.8493 L216.486,40.1537 L212.224,40.1537 z M182.232,7.94132 L205.523,7.94132 L205.523,11.7427 L186.495,11.7427 L186.495,21.6085 L204.315,21.6085 L204.315,25.3879 L186.495,25.3879 L186.495,36.3524 L206.27,36.3524 L206.27,40.1537 L182.232,40.1537 z M149.648,7.94132 L160.744,7.94132 C163.249,7.94133 165.16,8.09514 166.479,8.40275 C168.324,8.82752 169.899,9.59663 171.203,10.7099 C172.902,12.1455 174.173,13.9802 175.015,16.2141 C175.857,18.4481 176.279,21.0006 176.279,23.8717 C176.279,26.3181 175.993,28.4861 175.422,30.3757 C174.85,32.2654 174.118,33.8292 173.224,35.067 C172.331,36.3048 171.353,37.2789 170.291,37.9894 C169.229,38.6999 167.947,39.2382 166.446,39.6044 C164.944,39.9706 163.219,40.1537 161.271,40.1537 L149.648,40.1537 z M117.107,7.94132 L121.48,7.94132 L138.399,33.2322 L138.399,7.94132 L142.485,7.94132 L142.485,40.1537 L138.113,40.1537 L121.194,14.8408 L121.194,40.1537 L117.107,40.1537 z M105.373,7.94132 L109.636,7.94132 L109.636,40.1537 L105.373,40.1537 z M67.0295,7.94132 L73.4455,7.94132 L81.07,30.7493 C81.7731,32.8734 82.2858,34.4627 82.6081,35.5174 C82.9743,34.3455 83.5456,32.6243 84.322,30.3537 L92.0344,7.94132 L97.7691,7.94132 L97.7691,40.1537 L93.6603,40.1537 L93.6603,13.1929 L84.3,40.1537 L80.4548,40.1537 L71.1384,12.7315 L71.1384,40.1537 L67.0295,40.1537 z M37.2359,7.94132 L60.5269,7.94132 L60.5269,11.7427 L41.4986,11.7427 L41.4986,21.6085 L59.3184,21.6085 L59.3184,25.3879 L41.4986,25.3879 L41.4986,36.3524 L61.274,36.3524 L61.274,40.1537 L37.2359,40.1537 z M255.773,7.392 C258.16,7.392 260.266,7.77652 262.09,8.54558 C263.913,9.31463 265.316,10.4462 266.297,11.9404 C267.279,13.4346 267.806,15.1265 267.879,17.0161 L263.793,17.3237 C263.573,15.2876 262.829,13.7495 261.562,12.7095 C260.295,11.6694 258.424,11.1494 255.948,11.1494 C253.37,11.1494 251.492,11.6218 250.312,12.5667 C249.133,13.5115 248.544,14.6504 248.544,15.9834 C248.544,17.1406 248.961,18.0929 249.796,18.84 C250.616,19.587 252.759,20.3524 256.223,21.1361 C259.687,21.9198 262.064,22.6046 263.353,23.1905 C265.228,24.0549 266.612,25.1499 267.506,26.4756 C268.399,27.8012 268.846,29.3283 268.846,31.057 C268.846,32.7708 268.356,34.3858 267.374,35.9019 C266.393,37.4181 264.983,38.5973 263.144,39.4396 C261.306,40.2819 259.237,40.703 256.937,40.703 C254.022,40.703 251.579,40.2782 249.609,39.4286 C247.639,38.579 246.094,37.3008 244.973,35.5943 C243.852,33.8878 243.263,31.9578 243.204,29.8044 L247.225,29.4528 C247.416,31.0643 247.859,32.3863 248.554,33.419 C249.25,34.4517 250.331,35.2867 251.795,35.9239 C253.26,36.5611 254.908,36.8797 256.739,36.8797 C258.365,36.8797 259.801,36.638 261.046,36.1546 C262.291,35.6712 263.218,35.0084 263.825,34.1661 C264.433,33.3238 264.737,32.4046 264.737,31.4085 C264.737,30.3977 264.444,29.5151 263.858,28.7607 C263.273,28.0063 262.306,27.3728 260.958,26.8601 C260.094,26.5232 258.182,25.9995 255.223,25.289 C252.264,24.5786 250.191,23.9083 249.005,23.2784 C247.467,22.4728 246.321,21.473 245.566,20.2792 C244.812,19.0853 244.435,17.7486 244.435,16.2691 C244.435,14.6431 244.896,13.1233 245.819,11.7097 C246.742,10.2961 248.089,9.22312 249.862,8.49064 C251.634,7.75821 253.605,7.392 255.773,7.392 z M5.20992,4.35059 L5.20992,17.3755 L16.4085,17.3755 C18.7897,17.3755 20.6517,17.1293 21.9945,16.6369 C23.3372,16.1446 24.3577,15.3568 25.056,14.2737 C25.7542,13.1905 26.1033,12.0133 26.1033,10.7422 C26.1033,8.88018 25.4275,7.34938 24.0758,6.14989 C22.724,4.95029 20.589,4.35059 17.6707,4.35059 z M0,0 L17.4559,0 C20.965,0 23.6326,0.353599 25.4588,1.0608 C27.285,1.768 28.744,3.01669 29.8362,4.80709 C30.9283,6.59748 31.4743,8.57578 31.4743,10.7422 C31.4743,13.5351 30.5702,15.8895 28.7619,17.8052 C26.9538,19.7208 24.1608,20.9382 20.3831,21.4574 C21.7617,22.1198 22.8091,22.7733 23.5252,23.4179 C25.047,24.8143 26.4883,26.5599 27.849,28.6547 L34.697,39.37 L28.1444,39.37 L22.9344,31.1791 C21.4126,28.8158 20.1593,27.0075 19.1746,25.7543 C18.1899,24.501 17.3082,23.6237 16.5294,23.1224 C15.7506,22.6211 14.9584,22.272 14.1528,22.0751 C13.5619,21.9498 12.5951,21.8871 11.2524,21.8871 L5.20992,21.8871 L5.20992,39.37 L0,39.37 z" Fill="White" HorizontalAlignment="Left" Height="40.703" Margin="5.991,0,0,3.644" RenderTransformOrigin="0.569251,0.590804" Stretch="Fill" UseLayoutRounding="False" VerticalAlignment="Bottom" Width="268.846" d:IsLocked="True" Grid.Column="1">
+            <Path.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform/>
+                    <RotateTransform/>
+                    <TranslateTransform/>
+                </TransformGroup>
+            </Path.RenderTransform>
+        </Path>
+        <Rectangle x:Name="Reminders" Margin="1,1,9,57" Fill="White" Opacity="0.8" d:IsLocked="True" Grid.Column="1" Grid.Row="1" Grid.RowSpan="2"/>
+        <Ellipse x:Name="Remind1Eclipse" HorizontalAlignment="Left" Margin="20,13,0,0" Width="15" Fill="#FF6CB4EF" Grid.Column="1" Height="15" Grid.Row="1" VerticalAlignment="Top" Visibility="Collapsed"/>
+        <Ellipse x:Name="Remind2Eclipse" HorizontalAlignment="Left" Height="15" Margin="20,105,0,0" VerticalAlignment="Top" Width="15" Fill="#FF6CB4EF" Grid.Column="1" Grid.Row="1" Visibility="Collapsed"/>
+        <Ellipse x:Name="Remind3Eclipse" HorizontalAlignment="Left" Height="15" Margin="20,0,0,70" VerticalAlignment="Bottom" Width="15" Fill="#FF6CB4EF" Grid.Column="1" Grid.Row="1" Visibility="Collapsed"/>
+        <TextBlock x:Name="ReminderName1" Height="20" Margin="0,34,657,0" TextWrapping="Wrap" VerticalAlignment="Top" FontFamily="Arial" FontSize="17" Text="" Grid.Column="1" Grid.Row="1" HorizontalAlignment="Right" Width="253" FontStyle="Italic" Foreground="#FF444444"/>
+        <TextBlock x:Name="RemindHeader2" Height="30" Margin="45,97,32,152" TextWrapping="Wrap" FontFamily="Arial" FontSize="24" Text="" Grid.Column="1" Grid.Row="1" VerticalAlignment="Center" FontWeight="Bold" Foreground="#FF444444"/>
+        <TextBlock x:Name="RemindHeader1" Height="30" Margin="45,7,420,247" TextWrapping="Wrap" VerticalAlignment="Center" FontFamily="Arial" FontSize="24" Text="" Grid.Column="1" Grid.Row="1" FontWeight="Bold" Foreground="#FF444444"/>
+        <TextBlock x:Name="RemindText1" Height="40" Margin="45,54,32,185" TextWrapping="Wrap" VerticalAlignment="Center" FontFamily="Arial" FontSize="20" Text="" Grid.Column="1" Grid.Row="1" Foreground="#FF444444"/>
+        <TextBlock x:Name="RemindHeader3" Height="30" Margin="45,189,32,63" TextWrapping="Wrap" VerticalAlignment="Center" FontFamily="Arial" FontSize="24" Text="" Grid.Column="1" Grid.Row="1" FontWeight="Bold" Foreground="#FF444444"/>
+        <Rectangle x:Name="Agenda" Fill="White" Margin="1,1,9,1" Opacity="0.8" Grid.Column="1" Grid.Row="3" Grid.RowSpan="6" />
+        <Ellipse x:Name="Agenda1Eclipse" HorizontalAlignment="Left" Height="15" Margin="20,23,0,0" VerticalAlignment="Top" Width="15" Fill="#FF6CB4EF" Grid.Column="1" Grid.Row="3" Visibility="Collapsed"/>
+        <Ellipse x:Name="Agenda2Eclipse" HorizontalAlignment="Left" Margin="20,0,0,0" Width="15" Fill="#FF6CB4EF" Grid.Column="1" Grid.Row="5" Visibility="Collapsed" Height="15" VerticalAlignment="Top"/>
+        <Ellipse x:Name="Agenda3Eclipse" HorizontalAlignment="Left" Margin="20,-5,0,0" Width="15" Fill="#FF6CB4EF" Grid.Column="1" Grid.Row="6" Visibility="Collapsed" Height="14" VerticalAlignment="Top"/>
+        <Ellipse x:Name="Agenda4Eclipse" HorizontalAlignment="Left" Margin="20,0,0,20" Width="15" Fill="#FF6CB4EF" Grid.Column="1" Grid.Row="7" Visibility="Collapsed" Height="15" VerticalAlignment="Bottom"/>
+        <Path x:Name="AgendaText" Data="M142.329,11.7427 L142.329,36.3525 L149.206,36.3525 C151.33,36.3525 152.996,36.1547 154.205,35.7592 C155.413,35.3637 156.377,34.8071 157.094,34.0892 C158.105,33.0784 158.892,31.7198 159.456,30.0133 C160.02,28.3066 160.302,26.2375 160.302,23.8059 C160.302,20.4366 159.749,17.8475 158.643,16.0383 C157.537,14.2293 156.193,13.0171 154.611,12.4019 C153.469,11.9624 151.63,11.7427 149.096,11.7427 z M181.593,11.3252 C181.183,13.3906 180.604,15.4414 179.857,17.4777 L176.32,26.926 L187.24,26.926 L183.878,18.005 C182.853,15.2949 182.091,13.0684 181.593,11.3252 z M179.396,7.94134 L183.988,7.94134 L197.172,40.1537 L192.316,40.1537 L188.558,30.3978 L175.089,30.3978 L171.551,40.1537 L167.025,40.1537 z M138.066,7.94134 L149.162,7.94134 C151.667,7.94134 153.579,8.09515 154.897,8.40277 C156.743,8.82753 158.317,9.59664 159.621,10.71 C161.32,12.1455 162.591,13.9802 163.433,16.2141 C164.276,18.4481 164.697,21.0006 164.697,23.8718 C164.697,26.3181 164.411,28.4861 163.84,30.3758 C163.269,32.2654 162.536,33.8292 161.643,35.0671 C160.749,36.3049 159.771,37.279 158.709,37.9894 C157.647,38.6999 156.366,39.2382 154.864,39.6044 C153.363,39.9706 151.638,40.1537 149.69,40.1537 L138.066,40.1537 z M105.525,7.94134 L109.898,7.94134 L126.817,33.2322 L126.817,7.94134 L130.904,7.94134 L130.904,40.1537 L126.531,40.1537 L109.612,14.8408 L109.612,40.1537 L105.525,40.1537 z M75.6439,7.94134 L98.9349,7.94134 L98.9349,11.7427 L79.9066,11.7427 L79.9066,21.6085 L97.7264,21.6085 L97.7264,25.3879 L79.9066,25.3879 L79.9066,36.3525 L99.682,36.3525 L99.682,40.1537 L75.6439,40.1537 z M55.6039,7.39201 C57.9331,7.39201 60.0388,7.76921 61.9211,8.52362 C63.8034,9.27804 65.2792,10.3291 66.3486,11.6768 C67.4179,13.0244 68.2309,14.7822 68.7875,16.9503 L64.9423,18.005 C64.4589,16.3644 63.8583,15.0752 63.1406,14.1377 C62.4228,13.2002 61.3974,12.4495 60.0644,11.8855 C58.7314,11.3215 57.2519,11.0396 55.6259,11.0396 C53.6777,11.0396 51.9931,11.3362 50.5722,11.9295 C49.1513,12.5227 48.0051,13.3027 47.1335,14.2695 C46.2619,15.2363 45.5844,16.2985 45.101,17.4557 C44.2807,19.4479 43.8705,21.6085 43.8705,23.9377 C43.8705,26.8088 44.3649,29.2112 45.3537,31.1448 C46.3424,33.0784 47.7817,34.514 49.6713,35.4516 C51.561,36.3891 53.5678,36.8578 55.6918,36.8578 C57.5375,36.8578 59.3393,36.5026 61.0971,35.7922 C62.8549,35.0817 64.1879,34.3236 65.0961,33.5179 L65.0961,27.5193 L55.6259,27.5193 L55.6259,23.74 L69.2709,23.718 L69.2709,35.6713 C67.1762,37.3412 65.0156,38.5973 62.789,39.4396 C60.5624,40.2819 58.2773,40.703 55.9335,40.703 C52.7695,40.703 49.8947,40.0256 47.3093,38.6706 C44.7238,37.3156 42.7719,35.3564 41.4535,32.7928 C40.1352,30.2293 39.476,27.3654 39.476,24.2014 C39.476,21.0665 40.1315,18.1405 41.4425,15.4231 C42.7536,12.7058 44.6395,10.688 47.1005,9.36954 C49.5615,8.0512 52.3959,7.39201 55.6039,7.39201 z M17.8053,4.13569 C17.304,6.66008 16.5968,9.16658 15.6837,11.6553 L11.36,23.203 L24.7073,23.203 L20.5984,12.2998 C19.345,8.98758 18.414,6.26628 17.8053,4.13569 z M15.1198,0 L20.7327,0 L36.846,39.37 L30.9109,39.37 L26.3186,27.4462 L9.85605,27.4462 L5.53228,39.37 L0,39.37 z" Fill="White" HorizontalAlignment="Left" Margin="5.991,13.32,0,3.977" RenderTransformOrigin="0.093436,0.483625" Stretch="Fill" UseLayoutRounding="False" Width="197.172" d:IsLocked="True" Grid.Column="1" Grid.Row="2">
+            <Path.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform/>
+                    <RotateTransform/>
+                    <TranslateTransform/>
+                </TransformGroup>
+            </Path.RenderTransform>
+        </Path>
+        <TextBlock x:Name="AgendaDate1" Margin="45,17,0,25" TextWrapping="Wrap" Text="" FontFamily="Arial" FontSize="24" Grid.Column="1" Grid.Row="3" HorizontalAlignment="Left" Width="130" FontWeight="Bold" Foreground="#FF444444"/>
+        <TextBlock x:Name="AgendaHeader1" Margin="177,17,144,25" TextWrapping="Wrap" Text="" FontFamily="Arial" FontSize="24" Grid.Column="1" Grid.Row="3" FontWeight="Bold" Foreground="#FF444444"/>
+        <TextBlock x:Name="AgendaText1" Margin="45,-25,32,6" TextWrapping="Wrap" FontFamily="Arial" FontSize="20" Text="" Grid.Column="1" Grid.Row="4" Foreground="#FF444444" d:LayoutOverrides="TopPosition, BottomPosition" />
+        <TextBlock x:Name="AgendaHeader2" Height="34" Margin="177,-6,144,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" FontFamily="Arial" FontSize="24" Grid.Column="1" Grid.Row="5" FontWeight="Bold" Foreground="#FF444444"/>
+        <TextBlock x:Name="AgendaText2" Height="33" Margin="45,33,32,12" TextWrapping="Wrap" FontFamily="Arial" FontSize="20" Text="" Grid.Column="1" Grid.Row="5" Foreground="#FF444444"/>
+        <TextBlock x:Name="AgendaHeader3" Height="34" Margin="177,-12,144,-3" Foreground="#FF444444" TextWrapping="Wrap" Text="" FontFamily="Arial" FontSize="24" Grid.Column="1" Grid.Row="6" FontWeight="Bold"/>
+        <TextBlock x:Name="AgendaText3" Margin="45,3,32,0" TextWrapping="Wrap" FontFamily="Arial" FontSize="20" Text="" Grid.Column="1" Grid.Row="7" Foreground="#FF444444" Height="33" VerticalAlignment="Top" />
+        <TextBlock x:Name="AgendaHeader4" Foreground="#FF444444" Margin="177,35,144,9" TextWrapping="Wrap" Text="" FontFamily="Arial" FontSize="24" Grid.Column="1" Grid.Row="7" FontWeight="Bold" d:LayoutOverrides="TopPosition, BottomPosition"/>
+        <TextBlock x:Name="AgendaText4" Margin="45,-8,32,13" Height="33" TextWrapping="Wrap" FontFamily="Arial" FontSize="20" Text="" Grid.Column="1" Grid.Row="8" Foreground="#FF444444" />
+
+
+
+
+        <Rectangle x:Name="Feed" Fill="White" Margin="0,6,-2,0" Grid.ColumnSpan="7" Grid.Row="10"/>
+        <Path x:Name="PresencetText" Opacity="0.8" Data="M40.5577,11.5009 L40.5577,22.1578 L49.7203,22.1578 C51.6685,22.1578 53.192,21.9564 54.2906,21.5536 C55.3892,21.1507 56.2242,20.5062 56.7955,19.62 C57.3668,18.7338 57.6524,17.7705 57.6524,16.7305 C57.6524,15.207 57.0994,13.9546 55.9935,12.9732 C54.8875,11.9916 53.1407,11.5009 50.753,11.5009 z M223.847,7.9413 L247.138,7.9413 L247.138,11.7426 L228.109,11.7426 L228.109,21.6085 L245.929,21.6085 L245.929,25.3879 L228.109,25.3879 L228.109,36.3524 L247.885,36.3524 L247.885,40.1537 L223.847,40.1537 z M158.721,7.9413 L163.094,7.9413 L180.013,33.2322 L180.013,7.9413 L184.1,7.9413 L184.1,40.1537 L179.727,40.1537 L162.808,14.8408 L162.808,40.1537 L158.721,40.1537 z M128.84,7.9413 L152.131,7.9413 L152.131,11.7426 L133.103,11.7426 L133.103,21.6085 L150.922,21.6085 L150.922,25.3879 L133.103,25.3879 L133.103,36.3524 L152.878,36.3524 L152.878,40.1537 L128.84,40.1537 z M68.8136,7.9413 L92.1046,7.9413 L92.1046,11.7426 L73.0763,11.7426 L73.0763,21.6085 L90.8961,21.6085 L90.8961,25.3879 L73.0763,25.3879 L73.0763,36.3524 L92.8516,36.3524 L92.8516,40.1537 L68.8136,40.1537 z M36.295,7.9413 L50.5772,7.9413 C53.4483,7.9413 55.6309,8.23061 57.1251,8.80919 C58.6192,9.3879 59.8131,10.4096 60.7066,11.8744 C61.6002,13.3394 62.0469,14.958 62.047,16.7305 C62.0469,19.0157 61.3072,20.942 59.8277,22.5094 C58.3482,24.0768 56.0631,25.073 52.9722,25.4978 C54.1002,26.0398 54.9571,26.5744 55.543,27.1018 C56.7882,28.2444 57.9674,29.6726 59.0806,31.3865 L64.6837,40.1537 L59.3223,40.1537 L55.0596,33.452 C53.8145,31.5184 52.7891,30.0388 51.9835,29.0134 C51.1778,27.988 50.4564,27.2702 49.8192,26.8601 C49.182,26.4499 48.5338,26.1643 47.8746,26.0031 C47.3912,25.9006 46.6002,25.8493 45.5015,25.8493 L40.5577,25.8493 L40.5577,40.1537 L36.295,40.1537 z M205.237,7.39197 C208.459,7.39197 211.169,8.2123 213.367,9.85291 C215.564,11.4936 217.095,13.8008 217.959,16.7744 L213.762,17.7632 C213.015,15.4194 211.931,13.7129 210.51,12.6436 C209.089,11.5741 207.302,11.0395 205.149,11.0395 C202.673,11.0395 200.604,11.6327 198.941,12.8193 C197.279,14.0059 196.111,15.5989 195.437,17.5984 C194.763,19.598 194.426,21.6598 194.426,23.7838 C194.426,26.5232 194.825,28.9145 195.624,30.958 C196.422,33.0015 197.663,34.5286 199.348,35.5394 C201.033,36.5501 202.856,37.0555 204.819,37.0555 C207.207,37.0555 209.228,36.367 210.884,34.9901 C212.539,33.6131 213.659,31.5696 214.245,28.8596 L218.508,29.9362 C217.615,33.4373 216.007,36.107 213.685,37.9455 C211.363,39.7839 208.525,40.703 205.171,40.703 C201.699,40.703 198.876,39.9963 196.7,38.5827 C194.525,37.1691 192.87,35.1219 191.734,32.4412 C190.599,29.7605 190.032,26.882 190.032,23.8058 C190.032,20.4513 190.672,17.5252 191.954,15.0276 C193.236,12.53 195.06,10.633 197.425,9.3366 C199.791,8.04017 202.395,7.39197 205.237,7.39197 z M109.857,7.39197 C112.245,7.39197 114.35,7.7765 116.174,8.54556 C117.998,9.3146 119.401,10.4462 120.382,11.9403 C121.363,13.4346 121.891,15.1265 121.964,17.0161 L117.877,17.3237 C117.657,15.2876 116.914,13.7495 115.647,12.7095 C114.38,11.6693 112.508,11.1493 110.033,11.1493 C107.455,11.1493 105.576,11.6217 104.397,12.5667 C103.218,13.5115 102.628,14.6504 102.628,15.9834 C102.628,17.1406 103.046,18.0928 103.881,18.84 C104.701,19.587 106.843,20.3524 110.308,21.1361 C113.772,21.9198 116.149,22.6046 117.438,23.1905 C119.313,24.0548 120.697,25.1499 121.59,26.4756 C122.484,27.8012 122.931,29.3283 122.931,31.057 C122.931,32.7708 122.44,34.3858 121.459,35.9019 C120.477,37.4181 119.067,38.5973 117.229,39.4396 C115.391,40.2819 113.321,40.703 111.022,40.703 C108.107,40.703 105.664,40.2782 103.694,39.4286 C101.724,38.579 100.178,37.3008 99.0576,35.5943 C97.937,33.8878 97.3474,31.9578 97.2888,29.8044 L101.31,29.4528 C101.5,31.0642 101.943,32.3863 102.639,33.419 C103.335,34.4517 104.415,35.2867 105.88,35.9239 C107.345,36.5611 108.993,36.8797 110.824,36.8797 C112.45,36.8797 113.885,36.638 115.131,36.1546 C116.376,35.6712 117.302,35.0084 117.91,34.1661 C118.518,33.3238 118.822,32.4046 118.822,31.4085 C118.822,30.3977 118.529,29.5151 117.943,28.7607 C117.357,28.0063 116.39,27.3728 115.043,26.8601 C114.178,26.5232 112.267,25.9995 109.308,25.289 C106.349,24.5785 104.276,23.9083 103.09,23.2784 C101.552,22.4728 100.405,21.473 99.6508,20.2792 C98.8964,19.0853 98.5192,17.7485 98.5192,16.2691 C98.5192,14.6431 98.9807,13.1233 99.9035,11.7096 C100.826,10.2961 102.174,9.2231 103.947,8.49062 C105.719,7.75819 107.689,7.39197 109.857,7.39197 z M5.20992,4.64599 L5.20992,18.7182 L15.388,18.7182 C18.7539,18.7182 21.1441,18.0916 22.5585,16.8384 C23.9728,15.5851 24.6799,13.8216 24.6799,11.5478 C24.6799,9.90068 24.2637,8.49078 23.4313,7.31809 C22.5987,6.14539 21.5021,5.37109 20.1415,4.99509 C19.2642,4.76239 17.6439,4.64599 15.2806,4.64599 z M0,0 L14.8509,0 C17.4649,2E-06 19.4611,0.125302 20.8397,0.376001 C22.7733,0.6982 24.3935,1.3114 25.7004,2.2156 C27.0074,3.11969 28.0593,4.38639 28.856,6.01559 C29.6527,7.64478 30.051,9.43518 30.051,11.3867 C30.051,14.7347 28.9858,17.5679 26.8552,19.8864 C24.7247,22.2049 20.8755,23.3641 15.3075,23.3641 L5.20992,23.3641 L5.20992,39.37 L0,39.37 z" Fill="White" Margin="3.243,13.32,192.872,3.977" RenderTransformOrigin="0.573209,0.590804" Stretch="Fill" UseLayoutRounding="False" Grid.Column="3" Grid.Row="2" Grid.ColumnSpan="3">
+            <Path.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform/>
+                    <RotateTransform/>
+                    <TranslateTransform/>
+                </TransformGroup>
+            </Path.RenderTransform>
+        </Path>
+        <Rectangle x:Name="Presence1" Margin="0,0,204,2" Fill="White" Opacity="0.8" Grid.Column="5" Grid.Row="3" Grid.ColumnSpan="2" Visibility="Collapsed"/>
+        <Rectangle x:Name="PresencePhoto1" Margin="3,0,2,2" Grid.Column="3" Grid.Row="3" Visibility="Collapsed">
+            <Rectangle.Fill>
+                <ImageBrush Stretch="Fill" ImageSource="Assets/Person.png"/>
+            </Rectangle.Fill>
+        </Rectangle>
+        <TextBlock x:Name="PresenceName1" Margin="10,1,-2,2" Foreground="#FF444444" TextWrapping="Wrap" FontSize="24" Grid.Column="5" Grid.Row="3" d:LayoutOverrides="TopPosition, BottomPosition" Text="" FontFamily="Arial" HorizontalAlignment="Left" VerticalAlignment="Center" FontWeight="Bold"/>
+        <Rectangle x:Name="Presence2" Margin="0,2,204,0" Fill="White" Opacity="0.8" Grid.Column="5" Grid.Row="5" Grid.ColumnSpan="2" Visibility="Collapsed"/>
+        <Rectangle x:Name="PresencePhoto2" Margin="3,2,2,0" Grid.Column="3" Grid.Row="5" Visibility="Collapsed">
+            <Rectangle.Fill>
+                <ImageBrush Stretch="Fill" ImageSource="Assets/Person.png"/>
+            </Rectangle.Fill>
+        </Rectangle>
+        <TextBlock x:Name="PresenceName2" Margin="10,2,-2,0" TextWrapping="Wrap" Foreground="#FF444444" FontSize="24" Grid.Column="5" Grid.Row="5" d:LayoutOverrides="TopPosition, BottomPosition" Text="" FontFamily="Arial" VerticalAlignment="Center" HorizontalAlignment="Left" FontWeight="Bold"/>
+        <Rectangle x:Name="PresencePhoto3" Margin="3,1,2,37" Grid.Column="3" Grid.Row="7" Grid.RowSpan="2" Visibility="Collapsed">
+            <Rectangle.Fill>
+                <ImageBrush Stretch="Fill" ImageSource="Assets/Person.png"/>
+            </Rectangle.Fill>
+        </Rectangle>
+        <Rectangle x:Name="Presence3" Margin="0,1,204,37" Fill="White" Opacity="0.8" Grid.Column="5" Grid.Row="7" Grid.ColumnSpan="2" Grid.RowSpan="2" Visibility="Collapsed"/>
+        <TextBlock x:Name="PresenceName3" Margin="10,1,-2,0" Foreground="#FF444444" TextWrapping="Wrap" FontSize="24" Grid.Column="5" Grid.Row="7" d:LayoutOverrides="TopPosition, BottomPosition" Text="" FontFamily="Arial" HorizontalAlignment="Left" VerticalAlignment="Center" FontWeight="Bold"/>
+        <Path x:Name="PresenceRemaining" Data="M72,36 C72,55.8823 55.8823,72 36,72 C16.1177,72 0,55.8823 0,36 C0,16.1177 16.1177,0 36,0 C55.8823,0 72,16.1177 72,36 z" Fill="#FFF48851" HorizontalAlignment="Left" Margin="314.406,39,0,5" Stretch="Fill" Width="72" Grid.Column="5" UseLayoutRounding="False" Grid.Row="7" Grid.RowSpan="2" Grid.ColumnSpan="2" Visibility="Collapsed" />
+        <TextBlock x:Name="PresenceActive" HorizontalAlignment="Center" Margin="316,55,174,0" TextWrapping="Wrap" Width="63" FontFamily="Arial" FontSize="35" TextAlignment="Center" Grid.Column="5" Grid.Row="7" Foreground="White" Height="41" VerticalAlignment="Top" Grid.RowSpan="2" Grid.ColumnSpan="2">
+            <Run/>
+            <LineBreak/>
+            <Run/>
+            <LineBreak/>
+            <Run/>
+        </TextBlock>
+        <!--Scrollviewer for the RssBar  -->
+        <ScrollViewer x:Name="RssFeed" VerticalScrollBarVisibility="Hidden" HorizontalScrollBarVisibility="Hidden" 
+                      VerticalScrollMode="Disabled" HorizontalScrollMode="Enabled" Grid.ColumnSpan="7" Margin="0,10,-5,10" Grid.Row="10" 
+                      HorizontalAlignment="Right" Width="1925" Loaded="RssFeed_Loaded" VerticalAlignment="Center">
+            <ItemsControl x:Name="Display" >
+                <ItemsControl.ItemTemplate>
+                    <DataTemplate>
+                        <StackPanel Orientation="Horizontal" VerticalAlignment="Center">
+                            <TextBlock FontSize="50 " Text="- &#160; " Foreground="#FFF48851" />
+                            <TextBlock FontSize="50 " Text="R" Foreground="White"/>
+                            <TextBlock FontSize="50" TextWrapping="Wrap" Text="{Binding Title.Text}" Foreground="#FF6CB4EF" VerticalAlignment="Center"/>
+                            <TextBlock FontSize="50 " Text="R" Foreground="White"/>
+                        </StackPanel>
+                    </DataTemplate>
+                </ItemsControl.ItemTemplate>
+                <ItemsControl.ItemsPanel>
+                    <ItemsPanelTemplate >
+                        <StackPanel Orientation="Horizontal" />
+                    </ItemsPanelTemplate>
+                </ItemsControl.ItemsPanel>
+            </ItemsControl>
+        </ScrollViewer>
+        <TextBlock x:Name="AgendaDate2" Height="34" Margin="45,-6,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" FontFamily="Arial" FontSize="24" Grid.Column="1" Grid.Row="5" HorizontalAlignment="Left" Width="130" FontWeight="Bold" Foreground="#FF444444"/>
+        <TextBlock x:Name="AgendaDate3" Height="34" Margin="45,-12,0,-3" TextWrapping="Wrap" Text="" FontFamily="Arial" FontSize="24" Grid.Column="1" Grid.Row="6" HorizontalAlignment="Left" Width="130" FontWeight="Bold" Foreground="#FF444444"/>
+        <TextBlock x:Name="AgendaDate4" Height="34" Margin="45,35,0,9" TextWrapping="Wrap" Text="" FontFamily="Arial" FontSize="24" Grid.Column="1" Grid.Row="7" HorizontalAlignment="Left" Width="130" FontWeight="Bold" Foreground="#FF444444"/>
+        <TextBlock x:Name="RemindText2" Height="40" Margin="45,149,32,93" TextWrapping="Wrap" VerticalAlignment="Center" FontFamily="Arial" FontSize="20" Text="" Grid.Column="1" Grid.Row="1" Foreground="#FF444444"/>
+        <TextBlock x:Name="RemindText3" Height="40" Margin="45,238,32,2" TextWrapping="Wrap" VerticalAlignment="Center" FontFamily="Arial" FontSize="20" Text="" Grid.Column="1" Grid.Row="1" Foreground="#FF444444"/>
+        <TextBlock x:Name="ReminderName2" Height="20" Margin="0,129,657,132" TextWrapping="Wrap" FontFamily="Arial" FontSize="17" Text="" Grid.Column="1" Grid.Row="1" HorizontalAlignment="Right" Width="253" FontStyle="Italic" Foreground="#FF444444" d:LayoutOverrides="TopPosition, BottomPosition" VerticalAlignment="Top"/>
+        <TextBlock x:Name="ReminderName3" Height="20" Margin="0,218,657,0" TextWrapping="Wrap" VerticalAlignment="Top" FontFamily="Arial" FontSize="17" Text="" Grid.Column="1" Grid.Row="1" HorizontalAlignment="Right" Width="253" FontStyle="Italic" Foreground="#FF444444"/>
+        <Image x:Name="MadeByStudents" Grid.Column="6" HorizontalAlignment="Left" Height="108" Margin="0,17,0,0" VerticalAlignment="Top" Width="139" Source="Assets/MadeByStudentsLogo.png"/>
+        <Rectangle x:Name="Gradient1" Grid.Column="1" HorizontalAlignment="Left" Height="27.25" Margin="1630.625,935.125,-777.625,-742.375" VerticalAlignment="Top" Width="102" RenderTransformOrigin="0.5,0.5" UseLayoutRounding="False" d:LayoutRounding="Auto">
+            <Rectangle.RenderTransform>
+                <CompositeTransform Rotation="-90"/>
+            </Rectangle.RenderTransform>
+            <Rectangle.Fill>
+                <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                    <GradientStop Color="White" Offset="1"/>
+                    <GradientStop Color="Transparent"/>
+                </LinearGradientBrush>
+            </Rectangle.Fill>
+        </Rectangle>
+        <Rectangle x:Name="Gradient2" HorizontalAlignment="Left" Height="28.75" Margin="-36.375,934.875,0,-743.625" VerticalAlignment="Top" Width="102" RenderTransformOrigin="0.5,0.5" UseLayoutRounding="False" d:LayoutRounding="Auto">
+            <Rectangle.RenderTransform>
+                <CompositeTransform Rotation="-90"/>
+            </Rectangle.RenderTransform>
+            <Rectangle.Fill>
+                <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                    <GradientStop Color="Transparent" Offset="1"/>
+                    <GradientStop Color="White"/>
+                </LinearGradientBrush>
+            </Rectangle.Fill>
+        </Rectangle>
+        <TextBlock x:Name="Arstechnica" Foreground="#FF5B5B5B" HorizontalAlignment="Left" Height="35" Margin="50,5,0,0" Grid.Row="11" TextWrapping="Wrap" Text="Powered by: Arstechnica" VerticalAlignment="Top" Width="269" FontSize="24" FontFamily="Arial" Grid.ColumnSpan="2" FontStyle="Italic"/>
+
+    </Grid>
+</Page>
